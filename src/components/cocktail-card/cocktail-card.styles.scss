@@ -1,0 +1,16 @@
+.card {
+    box-shadow: 10px 10px 43px 23px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 10px 10px 43px 23px rgba(0,0,0,0.15);
+    -moz-box-shadow: 10px 10px 43px 23px rgba(0,0,0,0.15);
+    border-radius: 20px;
+    width: 20%;
+
+    
+
+    .content-wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+}

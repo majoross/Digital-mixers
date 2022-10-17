@@ -1,0 +1,14 @@
+.App {
+  max-width: 1140px;
+  text-align: center;
+  margin: auto;
+
+  .cocktails-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+
+
