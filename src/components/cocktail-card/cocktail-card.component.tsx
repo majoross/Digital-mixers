@@ -4,12 +4,13 @@ interface Iprops {
   imgUrl: string;
   title: string;
   description: string;
+  handleClick: () => void;
 }
 
-const CocktailCard = ({ imgUrl, description, title }: Iprops) => {
+const CocktailCard = ({ imgUrl, description, title, handleClick }: Iprops) => {
   return (
     <>
-      <div className="card">
+      <div className="card" onClick={handleClick}>
         <div className="img-wrapper">
           <img className="featured-image" src={imgUrl}></img>
         </div>
