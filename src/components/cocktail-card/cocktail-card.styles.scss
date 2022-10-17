@@ -4,15 +4,15 @@
     -moz-box-shadow: 10px 10px 43px 23px rgba(0,0,0,0.15);
     border-radius: 5px;
     max-width: 22%;
-    max-height: 600px;
+    max-height: 500px;
     margin-bottom: 30px;
 
     .img-wrapper{
-        height: 70%;
+        
+        height: 300px;
         .featured-image{
             border-radius: 5px 5px 0px 0px;
             width: 100%;
-            height: 100%;
             object-fit: cover;
         }
     }
