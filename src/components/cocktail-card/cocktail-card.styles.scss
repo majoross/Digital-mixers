@@ -2,15 +2,26 @@
     box-shadow: 10px 10px 43px 23px rgba(0,0,0,0.15);
     -webkit-box-shadow: 10px 10px 43px 23px rgba(0,0,0,0.15);
     -moz-box-shadow: 10px 10px 43px 23px rgba(0,0,0,0.15);
-    border-radius: 20px;
-    width: 20%;
+    border-radius: 5px;
+    max-width: 22%;
+    max-height: 600px;
+    margin-bottom: 30px;
 
-    
+    .img-wrapper{
+        height: 70%;
+        .featured-image{
+            border-radius: 5px 5px 0px 0px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
 
     .content-wrapper{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         padding: 10px;
+        text-align: left;
     }
 }
