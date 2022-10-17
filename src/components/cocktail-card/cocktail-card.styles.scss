@@ -7,6 +7,12 @@
     max-height: 500px;
     margin-bottom: 30px;
 
+    &:hover{
+        box-shadow: 3px 5px 41px 0px rgba(0,0,0,0.72);
+        -webkit-box-shadow: 3px 5px 41px 0px rgba(0,0,0,0.72);
+        -moz-box-shadow: 3px 5px 41px 0px rgba(0,0,0,0.72);
+    }
+
     .img-wrapper{
         
         height: 300px;
