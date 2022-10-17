@@ -36,7 +36,11 @@ const App = () => {
           ></CocktailCard>
         ))}
       </div>
-      <Modal open={isOpen} onClose={() => setIsOpen((prev) => !prev)}>
+      <Modal
+        data-testid="modal"
+        open={isOpen}
+        onClose={() => setIsOpen((prev) => !prev)}
+      >
         <Box
           position="absolute"
           top="50%"
